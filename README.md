@@ -2,6 +2,8 @@ Gartner Front End Part of the coding assessment.
 
 Application: To display stock data for a single company in a chart format.
 
+GitHub Repo: https://github.com/aglagola/gartner-front-end
+
 1. First clone both Front End and Back End Repositories to your local machine.
 
 2. Run back end application locally: should use port 8080, the endpoint is localhost:8080/api
