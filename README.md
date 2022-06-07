@@ -2,7 +2,13 @@ Gartner Front End Part of the coding assessment.
 
 Application: To display stock data for a single company in a chart format.
 
-Run application locally: npm start
+1. First clone both Front End and Back End Repositories to your local machine.
+
+2. Run back end application locally: should use port 8080, the endpoint is localhost:8080/api
+
+3. Run front end application locally: npm start
+
+4. Open browser to localhost:3000. It should display graph information using plot.ly
 
 This is a react app that runs index.js upon startup.
 Index.js renders App.js which then renders the component Stock

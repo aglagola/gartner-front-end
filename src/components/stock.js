@@ -12,8 +12,7 @@ class Stock extends Component {
   }
 
   async componentDidMount() {
-    const API_KEY = "demo";
-    let API_Call = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=IBM&apikey=${API_KEY}`;
+    let API_Call = `http://localhost:8080/api`;
     const xValuesFunction = [];
     const yValuesFunction = [];
     const response = await fetch(API_Call);
